@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Barra de menú -->
+    <string name="menu_lecciones">Lecciones</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_historial">Historial</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="accion_abrir_leccion">Abrir Lección</string>
+    <string name="accion_cerrar_leccion">Cerrar Lección</string>
+    <string name="accion_configurar_jdk">Configurar JDK</string>
+    <string name="accion_ver_historial">Ver Historial</string>
+
+    <!-- Interfaz principal -->
+    <string name="etiqueta_leccion_activa">LECCIÓN ACTIVA</string>
+    <string name="sin_leccion">(ninguna)</string>
+    <string name="descripcion_imagen_leccion">Imagen de la lección activa</string>
+    <string name="hint_editor">Escriba aquí su código Java…</string>
+    <string name="btn_compilar">Compilar</string>
+    <string name="btn_ejecutar">Ejecutar</string>
+
+    <!-- Lección de ejemplo -->
+    <string name="leccion_demo_nombre">leccion-01-hola-mundo</string>
+    <string name="leccion_demo_descripcion">Hola mundo\n\nCopie manualmente el siguiente programa en el editor, luego pulse Compilar y, si no hay errores, pulse Ejecutar.\n\npublic class Hola {\n    public static void main(String[] args) {\n        System.out.println(\"Hola mundo\");\n    }\n}</string>
+
+    <!-- Diálogos -->
+    <string name="dialogo_jdk_titulo">Seleccione ubicación de su Java Development Kit (JDK)</string>
+    <string name="dialogo_jdk_hint">/usr/lib/jvm/jdk-25</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="historial_titulo">Historial de Sesión</string>
+    <string name="historial_ejemplo">leccion-01-hola-mundo\n15/05/2026 4:30:10 PM · Pendiente\n\nleccion-01-hola-mundo\n15/05/2026 5:02:40 PM · Completada\n\nleccion-02-errores-compilacion\n15/05/2026 8:00:00 PM · Completada</string>
+    <string name="ayuda_titulo">Ayuda</string>
+    <string name="ayuda_texto">1. Abra una lección desde el menú Lecciones.\n2. Escriba el código en el editor.\n3. Pulse Compilar; si no hay errores se habilita Ejecutar.\n4. Revise el resultado en la consola.</string>
+
+    <!-- Mensajes de la consola -->
+    <string name="consola_inicial">[Sistema] Consola lista.</string>
+    <string name="log_leccion_abierta">[Lección] \'%1$s\' cargada.</string>
+    <string name="log_leccion_cerrada">[Lección] Lección cerrada.</string>
+    <string name="log_jdk_guardado">[Configuración] Ruta del JDK: %1$s</string>
+    <string name="log_jdk_vacio">[Configuración] No se configuró ninguna ruta de JDK.</string>
+    <string name="log_sin_leccion">[Compilar] Abra una lección antes de compilar.</string>
+    <string name="log_editor_vacio">[Compilar] El editor está vacío; no hay nada que compilar.</string>
+    <string name="log_compilacion_ok">[Compilar] Compilación simulada: 0 errores.</string>
+    <string name="log_ejecucion_ok">[Ejecutar] Ejecución simulada: el programa terminó sin errores.</string>
+</resources>

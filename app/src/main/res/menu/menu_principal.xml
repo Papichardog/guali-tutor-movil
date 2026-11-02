@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_lecciones"
+        android:title="@string/menu_lecciones"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/accion_abrir_leccion"
+                android:title="@string/accion_abrir_leccion" />
+            <item
+                android:id="@+id/accion_cerrar_leccion"
+                android:title="@string/accion_cerrar_leccion" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_configuracion"
+        android:title="@string/menu_configuracion"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/accion_configurar_jdk"
+                android:title="@string/accion_configurar_jdk" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_historial"
+        android:title="@string/menu_historial"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/accion_ver_historial"
+                android:title="@string/accion_ver_historial" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/accion_ayuda"
+        android:title="@string/menu_ayuda"
+        app:showAsAction="never" />
+</menu>

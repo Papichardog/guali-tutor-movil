@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores propios de Guali Tutor (prefijo guali_ para no chocar con los de la plantilla) -->
+    <color name="guali_etiqueta_fondo">#000000</color>
+    <color name="guali_etiqueta_texto">#FFFFFF</color>
+    <color name="guali_borde">#9E9E9E</color>
+    <color name="guali_icono">#7A869A</color>
+</resources>
