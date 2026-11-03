@@ -1,7 +1,6 @@
 package com.guali.tutor.movil;
 
 import android.os.Bundle;
-import com.guali.tutor.movil.R;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.MenuItem;
@@ -49,11 +48,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Deja el contenido fuera de las barras del sistema y del teclado.
+        // Deja el contenido fuera de las barras del sistema, de la cámara frontal (notch) y del teclado.
         View raiz = findViewById(R.id.main);
         ViewCompat.setOnApplyWindowInsetsListener(raiz, (vista, insets) -> {
             Insets margenes = insets.getInsets(
-                    WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.ime());
+                    WindowInsetsCompat.Type.systemBars()
+                            | WindowInsetsCompat.Type.displayCutout()
+                            | WindowInsetsCompat.Type.ime());
             vista.setPadding(margenes.left, margenes.top, margenes.right, margenes.bottom);
             return insets;
         });
